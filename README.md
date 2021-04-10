@@ -1,1 +1,2 @@
-# NetLib: a lightweight library for building networks in python
+# NetLib
+## A lightweight library for building networks in python
