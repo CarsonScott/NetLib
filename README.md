@@ -31,3 +31,6 @@ Each node is assigned an index when created which allows it to be identified. Ea
 
 	network.create_link(i, j, w=0.5)
 
+### Network Automata
+
+A network automaton is a functional network that updates each of its nodes based only on the surrounding neighborhood. The network class has a function called compute that takes an index and updates the corresponding node. Network Automata are created by making a new class that inherits from Network and defining the compute function. 
