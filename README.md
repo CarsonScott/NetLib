@@ -2,6 +2,8 @@
 
 NetLib is a lightweight python library that lets you define, construct, and operate on networks with ease.
 
+### Templates
+
 Templates are structures that represent "classes" defined at runtime, which can be instantiated to create objects. 
 
     T = Template('x', 'y')
@@ -12,6 +14,8 @@ Templates are structures that represent "classes" defined at runtime, which can 
 
     obj.y
     >> 2
+
+### Networks
 
 A network contains a node template and a link template from which all nodes and links are created. This means that every node shares the same set of attributes, as does every link.
 
